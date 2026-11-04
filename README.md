@@ -20,7 +20,7 @@ every product here, so a release may carry changes to only some of them — the 
 and read the release notes before moving:
 
 ```swift
-.package(url: "https://github.com/wemap/wemap-sdk-ios-widgets-distribution.git", .upToNextMinor(from: "0.1.0"))
+.package(url: "https://github.com/wemap/wemap-sdk-ios-widgets-distribution.git", .upToNextMinor(from: "0.2.0"))
 ```
 
 Each release pins the exact version of the base SDKs it was built against. That pairing is not something
@@ -30,7 +30,7 @@ base SDKs, move this package to a release that pins the version you want.
 
 ## Requirements
 
-- iOS 15.0 or newer
+- iOS 15.5 or newer
 - Xcode 26.0 or newer (Swift 6.2)
 
 The SDKs ship as binary XCFrameworks, and a binary Swift framework can only be consumed by the toolchain
